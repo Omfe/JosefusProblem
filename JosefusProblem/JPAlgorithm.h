@@ -12,10 +12,11 @@
 
 @interface JPAlgorithm : NSObject
 
-- (void) startExecutingWithNumberOfNodes:(NSInteger *)nodes withNumberOfJumps:(NSInteger *)jumps;
+- (void) startExecutingWithNumberOfNodes:(NSInteger)nodes withNumberOfJumps:(NSInteger)jumps;
+
 
 @property (strong, nonatomic) JPNode *headNode;
-@property (strong, nonatomic) JPNode *tailNode;
+@property (assign, nonatomic) NSInteger numberOfNodes;
 
 
 @end

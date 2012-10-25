@@ -21,6 +21,7 @@
 		993D9C5516375D5800A7736D /* JPPolygonShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C5416375D5800A7736D /* JPPolygonShape.m */; };
 		993D9C59163763ED00A7736D /* JPNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C58163763ED00A7736D /* JPNode.m */; };
 		993D9C5C163764B500A7736D /* JPAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C5B163764B500A7736D /* JPAlgorithm.m */; };
+		993D9C6B1638A19200A7736D /* JPList.m in Sources */ = {isa = PBXBuildFile; fileRef = 993D9C6A1638A19200A7736D /* JPList.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,8 @@
 		993D9C58163763ED00A7736D /* JPNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPNode.m; sourceTree = "<group>"; };
 		993D9C5A163764B500A7736D /* JPAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPAlgorithm.h; sourceTree = "<group>"; };
 		993D9C5B163764B500A7736D /* JPAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPAlgorithm.m; sourceTree = "<group>"; };
+		993D9C691638A19200A7736D /* JPList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPList.h; sourceTree = "<group>"; };
+		993D9C6A1638A19200A7736D /* JPList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPList.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				993D9C58163763ED00A7736D /* JPNode.m */,
 				993D9C5A163764B500A7736D /* JPAlgorithm.h */,
 				993D9C5B163764B500A7736D /* JPAlgorithm.m */,
+				993D9C691638A19200A7736D /* JPList.h */,
+				993D9C6A1638A19200A7736D /* JPList.m */,
 				993D9C3F163746D200A7736D /* JPViewController.xib */,
 				993D9C2B163746D200A7736D /* Supporting Files */,
 			);
@@ -195,6 +200,7 @@
 				993D9C5516375D5800A7736D /* JPPolygonShape.m in Sources */,
 				993D9C59163763ED00A7736D /* JPNode.m in Sources */,
 				993D9C5C163764B500A7736D /* JPAlgorithm.m in Sources */,
+				993D9C6B1638A19200A7736D /* JPList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
