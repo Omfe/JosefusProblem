@@ -16,7 +16,7 @@
 
 @end
 
-@interface LLList : NSObject
+@interface JPList : NSObject
 
 @property (strong, nonatomic) JPNode *headNode;
 @property (assign, nonatomic) NSInteger numberOfNodes;

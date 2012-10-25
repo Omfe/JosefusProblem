@@ -7,6 +7,7 @@
 //
 
 #import "JPViewController.h"
+#import "JPAlgorithm.h"
 
 @interface JPViewController () <UIPickerViewDataSource, UIPickerViewDelegate>
 
@@ -16,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *startButton;
 @property (weak, nonatomic) IBOutlet UIView *nodesView;
 
+@property (strong, nonatomic) JPAlgorithm *algorithm;
 
 @end
 
@@ -24,6 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.algorithm = [[JPAlgorithm alloc] init];
 }
 
 #pragma mark - UIPickerViewDataSource Methods
@@ -34,18 +37,21 @@
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
 {
-    return 30;
+    return 31;
 }
 
 - (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
 {
-    return [NSString stringWithFormat:@"%i", row]; //poner desde 1 +1 hasta 30
+    return [NSString stringWithFormat:@"%i", row]; 
 }
 
 #pragma mark - Action Methods
 - (IBAction)startButtonWasPressed:(id)sender
 {
+    [self.algorithm startExecutingWithNumberOfNodes:[self.numberOfNodesPickerView selectedRowInComponent:0]
+                                  withNumberOfJumps: [self.numberOfSkipsPickerView selectedRowInComponent:0]];
     
+    NSLog(@"%@", [self.algorithm headNode]);
 }
 
 

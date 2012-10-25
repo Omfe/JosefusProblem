@@ -9,7 +9,7 @@
 #import "JPList.h"
 #import "JPNode.h"
 
-@implementation LLList
+@implementation JPList
 
 - (id)init
 {

@@ -18,15 +18,18 @@
     JPNode *deleteNode;
     NSInteger i = 1;
     
+    currentNode = self.headNode;
     while (numberOfNodes > 1) {
         while (i < jumps) {
             currentNode = currentNode.nextNode;
             i++;
         }
+        i = 1;
         deleteNode = currentNode.nextNode;
         currentNode.nextNode = deleteNode.nextNode;
         numberOfNodes--;
     }
+    self.headNode = currentNode;
 }
 
 
