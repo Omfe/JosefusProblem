@@ -32,6 +32,4 @@
     self.headNode = currentNode;
 }
 
-
-
 @end

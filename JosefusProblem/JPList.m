@@ -38,7 +38,7 @@
     }
     newNode.nextNode = self.headNode;
     self.numberOfNodes++;
-   // [self.delegate list:self didInsertNode:newNode];
+    [self.delegate list:self didInsertNode:newNode];
 }
 
 - (void)deleteNodeAtIndex:(NSInteger)index
@@ -54,7 +54,7 @@
         self.headNode = deleteNode.nextNode;
     }
     self.numberOfNodes--;
-   // [self.delegate list:self didDeleteNode:deleteNode];
+    [self.delegate list:self didDeleteNode:deleteNode];
 }
 
 - (JPNode *)findNodeAtIndex:(NSInteger)index

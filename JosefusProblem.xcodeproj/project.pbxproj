@@ -99,6 +99,7 @@
 				993D9C34163746D200A7736D /* JPAppDelegate.m */,
 				993D9C3C163746D200A7736D /* JPViewController.h */,
 				993D9C3D163746D200A7736D /* JPViewController.m */,
+				993D9C3F163746D200A7736D /* JPViewController.xib */,
 				993D9C5316375D5800A7736D /* JPPolygonShape.h */,
 				993D9C5416375D5800A7736D /* JPPolygonShape.m */,
 				993D9C57163763ED00A7736D /* JPNode.h */,
@@ -107,7 +108,6 @@
 				993D9C5B163764B500A7736D /* JPAlgorithm.m */,
 				993D9C691638A19200A7736D /* JPList.h */,
 				993D9C6A1638A19200A7736D /* JPList.m */,
-				993D9C3F163746D200A7736D /* JPViewController.xib */,
 				993D9C2B163746D200A7736D /* Supporting Files */,
 			);
 			path = JosefusProblem;
